@@ -4,7 +4,7 @@ def isPrime(x):
             if x % i == 0:
                 return False
         return True
-    return False
+    #return False
 
 def gen_primes(n, limit):
     current = n 
